@@ -4,8 +4,6 @@ const querystring = require('querystring');
 const bodyParser = require('body-parser');
 let mongoose = require('mongoose');
 
-const apiKey = '0ac9956ed7a8919330765cd8c6dd1799';
-const apiSecret = 'c678e1c399b0787b9b644bb045847c7e';
 const scopes = 'read_products';
 const forwardingAddress = "http://6170a748.ngrok.io"; // R    eplace this with your HTTPS Forwarding address
 mongoose.connect('mongodb://localhost/shopify');
